@@ -109,6 +109,11 @@ body{
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.hero-text{
+  width: 50%;
 }
 
 .hero-image img{
@@ -150,7 +155,6 @@ body{
 .hero-description p{
   font-size: 1.5rem;
   color: grey;
-  width: 85%;
 }
 
 .hero-text button{
