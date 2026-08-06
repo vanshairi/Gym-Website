@@ -14,6 +14,8 @@
 
 body{
   font-family: "Ubuntu", sans-serif;
+  background-color: rgb(0, 0, 0);
+  color: white;
 }
 
 
@@ -73,6 +75,7 @@ body{
   color: grey;
   font-family: "Bebas Neue", sans-serif;
   font-size: 1.2rem;
+  font-weight: 100;
 }
 
 .navbar button{
@@ -101,3 +104,66 @@ body{
 /* HERO */
 
 
+.hero{
+  margin: 2rem 1rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.hero-image img{
+  width: 27rem;
+  border-radius: 25px;
+}
+
+.timings span{
+  display: inline-block;
+  background-color: rgb(177, 88, 19);
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 100;
+  font-size: 1.2rem;
+  padding: 0.5em;
+  border-radius: 999px;
+  color: white;
+  border: 2px solid rgb(255, 106, 0);
+}
+
+.hero-heading{
+  margin-top: 1rem;
+}
+
+.hero-heading p{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 7rem;
+  line-height: 0.9;
+}
+
+.hero-heading span{
+  color: rgb(255, 106, 0);
+}
+
+.hero-description{
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.hero-description p{
+  font-size: 1.5rem;
+  color: grey;
+  width: 85%;
+}
+
+.hero-text button{
+  font-family: "Montserrat";
+  font-size: 1.1rem;
+  padding: 1rem;
+  border-radius: 999px;
+  background-color: rgb(255, 106, 0);
+  border: 2px solid orangered;
+  margin-right: 1rem;
+}
+
+.hero-text button:hover{
+  transform: translateY(-2px);
+  border: 2px solid rgb(238, 230, 230);
+}
