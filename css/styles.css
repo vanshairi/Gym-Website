@@ -99,10 +99,30 @@ body{
   text-decoration: none;
 }
 
+@media (min-width: 320px){
 
+  .nav-links{
+    display: none;
+  }
+  
+}
+
+@media (min-width: 768px){
+  .nav-links{
+    display: flex;
+  }
+}
+
+@media (min-width: 1025px){
+
+}
+
+@media (min-width: 1281px){
+
+}
 
 /* HERO */
-
+/* 
 
 .hero{
   margin: 2rem 1rem;
@@ -170,4 +190,4 @@ body{
 .hero-text button:hover{
   transform: translateY(-2px);
   border: 2px solid rgb(238, 230, 230);
-}
+} */
