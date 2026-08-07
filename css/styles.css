@@ -169,10 +169,60 @@ body{
 }
 
 
+/* INFO SECTION */
 
+.info{
+  margin: 2rem 1rem;
+}
 
+.info-rating{
+  margin: 0.5rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 800;
+}
 
+.rating-stars{
+  color: rgb(255, 89, 0);
+}
 
+.info-rating span{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
+  font-size: 0.8rem;
+}
+
+.info-grid{
+  margin-top: 2rem;
+  display: grid;
+  gap: 0.3rem;
+  justify-content: space-evenly;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.info-card{
+  text-align: center;
+  padding: 1rem;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.info-card{
+  background-color: rgb(25, 11, 7);
+  border: 2px solid rgb(12, 1, 1);
+}
+
+.info-card h2{
+  font-size: 3rem;
+  color: rgb(255, 89, 0);
+}
+
+.info-card i{
+  margin-left: 0.2rem;
+  font-size: 2.8rem;
+}
 
 
 
@@ -227,6 +277,10 @@ body{
 
   .hero-heading p{
     font-size: 6rem;
+  }
+
+  .info-grid{
+    grid-template-columns: repeat(4, 1fr);
   }
   
 
