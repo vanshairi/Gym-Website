@@ -1,40 +1,46 @@
-# Gym Website
+# Titan Strength Club
 
-A modern and responsive **Gym Website** built using **HTML** and **CSS**. This project is currently under development and is being created to practice front-end web development, responsive design, and UI/UX principles.
+A modern, responsive landing page for **Titan Strength Club**, designed to showcase a premium gym with a clean UI, engaging animations, and a mobile-first experience.
 
-> **Project Status:** Work in Progress
+## Features
+
+* Modern and responsive design
+* Mobile-first layout
+* Sticky navigation bar
+* Hero section with call-to-action
+* Services section
+* Membership plans
+* Trainer showcase
+* Contact section
+* Smooth hover and transition effects
+* Optimized for desktop, tablet, and mobile devices
+
+## Built With
+
+* HTML5
+* CSS3
+
+## Live Demo
+
+https://titan-strength-club.vercel.app
+
+```
+
+## 📱 Responsive Design
+
+The website has been optimized for:
+
+* Desktop
+* Laptop
+* Tablet
+* Mobile
+
+## 👨‍💻 Author
+
+**Vansh Airi**
+
+GitHub: https://github.com/vanshairi
 
 ---
 
-## Planned Features
-
-- Responsive design for all screen sizes
-- Modern landing page
-- Navigation bar
-- Hero section
-- About section
-- Services section
-- Trainers section
-- Membership plans
-- Contact section
-- Footer
-
----
-
-## Technologies Used
-
-- HTML5
-- CSS3
-
----
-
-## Purpose
-
-This project is being developed to:
-
-- Practice HTML and CSS
-- Improve responsive web design skills
-- Build modern website layouts
-- Strengthen front-end development skills
-
----
+If you found this project helpful, consider giving it a ⭐ on GitHub.
