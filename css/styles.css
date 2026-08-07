@@ -33,7 +33,7 @@ body{
 
 
 .logo img{
-  width: 60px;
+  width: 50px;
   border-radius: 15px;
   transition: .4s;
 }
@@ -48,6 +48,7 @@ body{
   display: flex;
   font-size: 0.6rem;
   gap: 2em;
+  display: none;
 }
 
 .nav-links a{
@@ -66,7 +67,7 @@ body{
 }
 
 .logo-title h1{
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   color: rgb(225, 218, 218);
   font-family: "Bebas Neue", sans-serif;
 }
@@ -74,7 +75,7 @@ body{
 .logo-title h2{
   color: grey;
   font-family: "Bebas Neue", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 100;
 }
 
@@ -85,7 +86,7 @@ body{
   align-items: center;
   border: 2px solid black;
   border-radius: 999px;
-  font-size: 1rem;
+  font-size: .9rem;
   padding: 0.8em;
   transition: .3s;
 }
@@ -99,58 +100,24 @@ body{
   text-decoration: none;
 }
 
-@media (min-width: 320px){
+/* HERO SECTION */
 
-  .nav-links{
-    display: none;
-  }
-  
-}
-
-@media (min-width: 768px){
-  .nav-links{
-    display: flex;
-  }
-}
-
-@media (min-width: 1025px){
-
-}
-
-@media (min-width: 1281px){
-
-}
-
-/* HERO */
-/* 
-
-.hero{
-  margin: 2rem 1rem;
+.hero {
+  margin: 1rem;
   display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.hero-text{
-  width: 50%;
-}
-
-.hero-image img{
-  width: 27rem;
-  border-radius: 25px;
-}
-
-.timings span{
-  display: inline-block;
-  background-color: rgb(177, 88, 19);
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 100;
-  font-size: 1.2rem;
-  padding: 0.5em;
-  border-radius: 999px;
-  color: white;
-  border: 2px solid rgb(255, 106, 0);
+.timings{
+  border: 2px solid rgb(185, 67, 3);
+  font-size: 0.9rem;
+  text-align: center;
+  border-radius: 15px;
+  padding: 0.3rem;
+  background-color: rgb(82, 34, 17)
 }
 
 .hero-heading{
@@ -159,35 +126,116 @@ body{
 
 .hero-heading p{
   font-family: "Bebas Neue", sans-serif;
-  font-size: 7rem;
+  font-size: 3.8rem;
   line-height: 0.9;
 }
 
 .hero-heading span{
-  color: rgb(255, 106, 0);
+  color: rgb(255, 89, 0);
 }
 
 .hero-description{
-  margin-top: 2rem;
-  margin-bottom: 3rem;
+  margin-top: 1.3rem;
+  margin-bottom: 1rem;
 }
 
 .hero-description p{
-  font-size: 1.5rem;
-  color: grey;
+  font-size: 1rem;
+  font-weight: 100;
 }
 
 .hero-text button{
-  font-family: "Montserrat";
-  font-size: 1.1rem;
-  padding: 1rem;
+  font-family: "Bebas Neue", sans-serif;
+  margin: 0.5rem 0.3rem;
+  font-size: 1.2rem;
+  padding: 0.8rem;
+  border: 1.5px solid orangered;
+  background-color: rgb(213, 93, 12);
   border-radius: 999px;
-  background-color: rgb(255, 106, 0);
-  border: 2px solid orangered;
-  margin-right: 1rem;
+  color: rgb(219, 211, 211);
+  transition: .3s;
 }
 
 .hero-text button:hover{
   transform: translateY(-2px);
-  border: 2px solid rgb(238, 230, 230);
-} */
+  border-color: aliceblue;
+}
+
+.hero-image img{
+  margin-top: 1rem;
+  max-width: 300px;
+  width: 100%;
+  border-radius: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 768px){
+
+  .logo img{
+    width: 60px;
+  }
+
+  .logo-title h1{
+    font-size: 1.7rem;
+  }
+
+  .logo-title h2{
+    font-size: 1.2rem;
+  }
+
+  .navbar button{
+    font-size: 1rem;
+  }
+
+  .nav-links{
+    display: flex;
+  }
+
+  .hero{
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .hero-text{
+    width: 50%;
+  }
+
+  .hero-heading p{
+    font-size: 6rem;
+  }
+  
+
+}
+
+@media (min-width: 1025px){
+  
+}
+
+@media (min-width: 1281px){
+
+}
