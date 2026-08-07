@@ -24,7 +24,6 @@ A modern, responsive landing page for **Titan Strength Club**, designed to showc
 
 https://titan-strength-club.vercel.app
 
-```
 
 ## 📱 Responsive Design
 
